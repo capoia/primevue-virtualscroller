@@ -1,0 +1,22 @@
+{
+  "name": "primevue-nuxt-issue-template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.9.3",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "nuxt-primevue": "^0.2.2",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.47.2",
+    "@nuxtjs/tailwindcss": "6.12.0"
+  }
+}
